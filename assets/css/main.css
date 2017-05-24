@@ -11,6 +11,7 @@ body{
 	background-image:url(../img/cropped-Lyft-Promo-Codes-car-1.jpg);
 	background-size: 100%; /*Que se adapte al tamaña de la pantalla*/
 	background-repeat: no-repeat;
+	background-position:50% 2%;
 	font-family: 'Raleway';
 	margin: 0;
 }
@@ -21,7 +22,17 @@ nav{
 	top: 0; /* Top y left en 0 para que este pegado al borde superior y al izquierdo*/
 	left: 0;
 	width: 100%; /*Ancho de 100% para que sea del largo de la pantalla*/
-	height: 65px; /*Prueba de alto*/
+	height: 70px; /*Prueba de alto con el inspector*/
 	z-index: 10; /*Prioridad al mostrarse en la pantalla*/
-	
+}
+
+.logo{
+	background-image: url(../img/logo-white.png); /*Enlazamos imagen*/
+	background-size: 100%; /*Para que la imagen tome el tamaño de todo el espacio */
+	float: left; /*Posicionarse al lado izquierdo*/
+	position: absolute;/*Regular en base a su padre*/
+	left:15%; /*Que tan a la derecha lo correremos*/
+	top: 8.5px; /*Cuantos pixeles se moverá hacia abajo, este n° lo sacamos restando la altura del logo a la altura total*/
+	width: 75px;
+	height: 53px;
 }
