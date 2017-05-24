@@ -59,3 +59,31 @@ ul li a{
 a:hover{/*Para que cambie de color al posicionarse sobre el elemento*/
 	background-color: #E56385;
 }
+
+/*  Caja Sign-up  */
+
+#contenedor{
+	background-color: #EDE9E2;
+	position: absolute;
+	right: 0;
+	top: 170px;;
+	width: 430px;
+	height: 340px;
+	padding: 50px;
+}
+
+h1{
+	color: #00B2A9;
+	text-transform: uppercase;
+}
+.sign-up{
+	color: #75726C;
+}
+.boton-driver{
+	display:block;
+	background-color: #E54E79;
+	border: none;
+	color: white;
+	padding: 10px;
+}
+
