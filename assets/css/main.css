@@ -6,51 +6,22 @@ Colors:
 #75726C;
 #EDE9E2
 */
+/*Definimos fondo principal*/
 body{
 	background-image:url(../img/cropped-Lyft-Promo-Codes-car-1.jpg);
-	background-size: cover;
+	background-size: 100%; /*Que se adapte al tamaña de la pantalla*/
 	background-repeat: no-repeat;
-	background-position: 50% 5%;
+	font-family: 'Raleway';
 	margin: 0;
 }
 
 nav{
-	color: #fff; /* color texto blanco*/
-	background-color: #E54E79; /*color de fondo*/
-	position: fixed; /*para que no desaparezca de la pantalla*/
-	top: 0;/* top y left en 0 para que este pegado al borde superior y al izquierdo*/
+	background-color: #E54E79;/*Color de fondo*/
+	position: fixed; /*Para que no desaparezca de la pantalla*/
+	top: 0; /* Top y left en 0 para que este pegado al borde superior y al izquierdo*/
 	left: 0;
-	height: 60px; /*alto*/
-	width: 100%; /*ancho de 100% para que sea del largo de la pantalla*/
-	z-index: 1000; /*prioridad al mostrarse en la pantalla*/
-}
-
-.logo{
-	background-size: 100%; /*Para que la imagen tome todo el espacio*/
-	/*tamaño que tomará la imagen ancho y alto respectivamente*/
-	background-repeat: no-repeat;
-	width: 70px; 
-	height: 74px;
-	position: absolute; /* el logo se posicionará en base a su padre*/
-	background-image: url(../img/logo-white.png);
-	z-index: 2000; /*tendrá mayor prioridad*/
-	margin-left: 200px
-}
-
-ul{
-	overflow: hidden;
-	z-index: 2000;
-	text-decoration: none;
-}
-
-ul li{
-	display: inline-block;
-	list-style: none;
-
-}
-
-.contenedor{
-	width: 100%;
-	height: 1000px;
-	background-color: blue;
+	width: 100%; /*Ancho de 100% para que sea del largo de la pantalla*/
+	height: 65px; /*Prueba de alto*/
+	z-index: 10; /*Prioridad al mostrarse en la pantalla*/
+	
 }
