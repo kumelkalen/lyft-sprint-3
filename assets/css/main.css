@@ -1,12 +1,12 @@
 /*
 Colors: 
-;
-#E56385;
-#00B2A9;
-#75726C;
-#EDE9E2
+#E54E79; rosado
+#E56385; rosado claro
+#00B2A9; celeste
+#75726C; gris
+#EDE9E2; gris claro
 */
-/*Definimos fondo principal*/
+/*  Definimos fondo principal  */
 body{
 	background-image:url(../img/cropped-Lyft-Promo-Codes-car-1.jpg);
 	background-size: 100%; /*Que se adapte al tamaña de la pantalla*/
@@ -16,6 +16,7 @@ body{
 	margin: 0;
 }
 
+/*  ESTILOS de los elementos del header  */
 nav{
 	background-color: #E54E79;/*Color de fondo*/
 	position: fixed; /*Para que no desaparezca de la pantalla*/
@@ -35,4 +36,26 @@ nav{
 	top: 8.5px; /*Cuantos pixeles se moverá hacia abajo, este n° lo sacamos restando la altura del logo a la altura total*/
 	width: 75px;
 	height: 53px;
+}
+/*  Sección del menú  */
+ul{
+	list-style: none;/*Eliminamos el símbolo*/
+	float: right;/*Lo posicionamos al lado derecho*/
+	position: relative;
+	right: 5%;
+	top:9px;
+}
+
+ul li{
+	display: inline-block;/*Para que cada elemento se posicione horizontalmente*/
+}
+
+ul li a{
+	text-decoration: none;/*Eliminamos la línea del link que viene por defecto*/
+	color: white;
+	padding:15px;
+}
+
+a:hover{/*Para que cambie de color al posicionarse sobre el elemento*/
+	background-color: #E56385;
 }
